@@ -1,0 +1,936 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1657572995124079, "dur": 249815, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657572995125244, "dur": 43491, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657572995169080, "dur": 194789, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657572995363887, "dur": 10006, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657573002747237, "dur": 5582425, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657573002747626, "dur": 6138, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657573002753765, "dur": 5563510, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657573008317279, "dur": 12380, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657573008330621, "dur": 67, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1657573002774580, "dur":2402, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657573002777006, "dur":316, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1657573002777406, "dur":47, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1657573002777455, "dur":531, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1657573002778022, "dur":1242, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657573002779265, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657573008265514, "dur":82, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657573008265596, "dur":63, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657573008265659, "dur":213, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657573008265872, "dur":31, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657573008265903, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657573008265909, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657573008265921, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657573008265924, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657573008265934, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657573008265937, "dur":36, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657573008265974, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657573008265975, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657573008265983, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657573008265985, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657573008265992, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657573008265994, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657573008266002, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657573008266024, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657573008266043, "dur":3838, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1657573002778169, "dur":1110, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573002779294, "dur":5071, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573002784378, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1657573002784380, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573002784453, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1657573002784457, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573002784512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573002785472, "dur":3239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1657573002788716, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1657573002788817, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573002788898, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573002789329, "dur":1839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1657573002791225, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1657573002791281, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573002791350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573002791361, "dur":2179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1657573002793601, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1657573002793670, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573002793743, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573002794073, "dur":2217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1657573002796347, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1657573002796403, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573002796450, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573002796461, "dur":71836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1657573002868358, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1657573002868416, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573002868473, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573002868484, "dur":2934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1657573002871482, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573002871614, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573002871707, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573002871716, "dur":74561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573002946340, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573002946404, "dur":3705, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573002950127, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573002950152, "dur":108854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573003059064, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573003059129, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573003059187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573003059210, "dur":50940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573003110225, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573003110284, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573003110339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573003110353, "dur":204014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573003314503, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573003314571, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573003314651, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573003314667, "dur":142494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573003457237, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573003457309, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573003457370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573003457387, "dur":196366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573003653856, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573003653956, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573003654112, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573003654144, "dur":115739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573003769968, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573003770077, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573003770159, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573003770177, "dur":101840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573003872886, "dur":47153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573003920041, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573003920202, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573003920223, "dur":33840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573003954228, "dur":140635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.Codeless.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1657573004094864, "dur":7570, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573004102474, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573004102516, "dur":5889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.Codeless.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1657573004108490, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573004108564, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573004108634, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573004108652, "dur":162281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573004271022, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573004271106, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573004271188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573004271205, "dur":685838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573004957155, "dur":309756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573005266912, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573005267029, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573005267045, "dur":3408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573005270529, "dur":15551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1657573005286081, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573005286214, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573005286233, "dur":2246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1657573005288546, "dur":186606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573005475154, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573005475286, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573005475304, "dur":2642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573005478029, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573005478373, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573005478451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573005478467, "dur":318859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573005797394, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573005797459, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573005797568, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573005797586, "dur":866217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573006663887, "dur":464945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573007128834, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573007128963, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573007128981, "dur":56781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573007185879, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573007185993, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573007186080, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657573007186099, "dur":809462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657573007995613, "dur":269861, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573002778223, "dur":1075, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573002779299, "dur":5080, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573002784380, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1657573002784611, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573002784728, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573002876344, "dur":4090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1657573002880511, "dur":68903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573002949415, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573002949501, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573002949515, "dur":31117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573002980687, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573002980748, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573002980795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573002980809, "dur":113287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573003094168, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573003094229, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573003094287, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573003094301, "dur":115079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573003210034, "dur":71866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1657573003281902, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573003282018, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573003282035, "dur":2154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1657573003284270, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573003284339, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573003284394, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573003284409, "dur":148486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573003432985, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573003433066, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573003433155, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573003433172, "dur":114835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573003548110, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573003548187, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573003548258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573003548276, "dur":441273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573003989629, "dur":2145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573003991776, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573003991938, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573003992020, "dur":2071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573003994172, "dur":20442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.AppleCore.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1657573004014615, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573004014769, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573004014810, "dur":2122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.AppleCore.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1657573004017023, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573004017099, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573004017168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573004017184, "dur":336357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573004353624, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573004353698, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573004353776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573004353795, "dur":137497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573004491389, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573004491476, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573004491559, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573004491580, "dur":98723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573004590402, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573004590493, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573004590592, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573004590616, "dur":93686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573004684424, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573004684560, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573004684661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573004684683, "dur":506218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573005190980, "dur":175016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573005365998, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573005366132, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573005366149, "dur":62470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573005428693, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573005428766, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573005428862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573005428939, "dur":1414969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573006844225, "dur":251645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573007095871, "dur":33078, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573007128976, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573007128993, "dur":51046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573007180128, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573007180208, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573007180311, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573007180329, "dur":272841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657573007453282, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1657573007453599, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573007453708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573007455539, "dur":4881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1657573007460518, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1657573007460633, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573007460652, "dur":13432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1657573007474178, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1657573007474277, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573007474293, "dur":12247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1657573007486628, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1657573007486781, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657573007486800, "dur":10482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1657573007497386, "dur":768114, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573002778320, "dur":991, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573002779312, "dur":5063, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573002784378, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1657573002784600, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573002784763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573002879435, "dur":1983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1657573002881503, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573002881574, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573002881621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573002881637, "dur":73029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573002954812, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573002954941, "dur":19026, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573002974045, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573002974061, "dur":121465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573003095593, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573003095658, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573003095717, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573003095732, "dur":235374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573003331169, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573003331230, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573003331290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573003331306, "dur":438266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573003769693, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573003769790, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573003769873, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573003769894, "dur":154879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573003924869, "dur":2996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573003927866, "dur":417, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573003928302, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573003928323, "dur":2438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573003930896, "dur":22342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1657573003953241, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573003953364, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573003953384, "dur":2131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1657573003955606, "dur":128444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573004084051, "dur":18322, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573004102402, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573004102429, "dur":4776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573004107288, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573004107361, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573004107458, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573004107476, "dur":209205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573004316786, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573004316866, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573004316939, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573004316958, "dur":124704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573004441757, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573004441839, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573004441983, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573004442002, "dur":135486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573004577598, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573004577690, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573004577781, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573004577807, "dur":248090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573004825985, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573004826078, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573004826171, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573004826193, "dur":97700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573004923991, "dur":26563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1657573004950555, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573004950668, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573004950686, "dur":6386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1657573004957164, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573004957253, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573004957398, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573004957422, "dur":232237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573005189741, "dur":63992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1657573005253734, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573005253854, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573005253888, "dur":2015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1657573005255987, "dur":138147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573005394136, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573005394265, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573005394284, "dur":13426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573005407779, "dur":92696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Analytics.DataPrivacy.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1657573005500477, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573005500596, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573005500614, "dur":1997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Analytics.DataPrivacy.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1657573005502683, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573005502744, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573005502810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573005502825, "dur":444906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573005947923, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573005948057, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573005948129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573005948145, "dur":715549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573006663798, "dur":102407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1657573006766206, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573006766326, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573006766343, "dur":3153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1657573006769579, "dur":400823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573007170409, "dur":515, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573007173213, "dur":782, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573007174018, "dur":6249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573007180353, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573007180436, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573007180508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657573007180525, "dur":1084875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657573008265446, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1657573008265449, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573002778361, "dur":958, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573002779319, "dur":5090, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573002784410, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1657573002784507, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573002784567, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573002796255, "dur":71528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1657573002867861, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1657573002867923, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573002867966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573002867981, "dur":3729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1657573002871761, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1657573002871816, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573002871866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573002871874, "dur":5662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1657573002877602, "dur":18141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.XR.LegacyInputHelpers.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1657573002895744, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573002895817, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573002895830, "dur":2768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.XR.LegacyInputHelpers.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1657573002898655, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657573002898703, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573002898761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573002898774, "dur":162885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657573003061765, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657573003061835, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573003061944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573003061960, "dur":92959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657573003154980, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657573003155035, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573003155094, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573003155109, "dur":468075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657573003623334, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657573003623693, "dur":372, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573003624106, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573003624183, "dur":92068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657573003716366, "dur":29828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.SpatialTracking.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1657573003746197, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573003746340, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573003746362, "dur":2200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.SpatialTracking.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1657573003748644, "dur":82262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657573003830908, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573003831091, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573003831112, "dur":2565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657573003833776, "dur":25518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.WinRTStub.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1657573003859296, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573003859464, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573003859488, "dur":7770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.WinRTStub.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1657573003867416, "dur":21063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.WinRTCore.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1657573003888481, "dur":9100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573003897638, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573003897678, "dur":2840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.WinRTCore.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1657573003900635, "dur":251643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657573004152280, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573004152397, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573004152415, "dur":4207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657573004156725, "dur":277322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657573004434048, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573004434182, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573004434204, "dur":8451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657573004442762, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657573004442913, "dur":2574, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573004445507, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573004445529, "dur":167389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657573004613019, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657573004613113, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573004613250, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573004613277, "dur":227771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657573004841145, "dur":155981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657573004997128, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573004997263, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573004997286, "dur":2257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657573004999677, "dur":17617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1657573005017295, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573005017486, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573005017505, "dur":2926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1657573005020506, "dur":739029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657573005759537, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573005759663, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573005759682, "dur":2086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657573005761834, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657573005761901, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573005761972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573005761987, "dur":167317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657573005929381, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657573005929444, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573005929507, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573005929522, "dur":1526144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657573007455780, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1657573007455900, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573007456033, "dur":6475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1657573007462605, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1657573007462700, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573007462717, "dur":8841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1657573007471648, "dur":20719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1657573007492368, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573007492539, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657573007492556, "dur":9991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1657573007502627, "dur":762871, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573002778417, "dur":910, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573002779327, "dur":5063, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573002784392, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1657573002784544, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573002784634, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573002868197, "dur":2124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1657573002870374, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573002870436, "dur":1629, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573002872074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573002872435, "dur":50804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573002923299, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573002923374, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573002923421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573002923435, "dur":148066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573003071571, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573003071641, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573003071701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573003071719, "dur":41627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573003113422, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573003113483, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573003113544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573003113558, "dur":39221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573003152851, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573003152919, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573003152977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573003152992, "dur":124486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573003277566, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573003277639, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573003277749, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573003277767, "dur":187595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573003465452, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573003465517, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573003465583, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573003465601, "dur":246607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573003712302, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573003712386, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573003712469, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573003712491, "dur":70685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573003783267, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573003783366, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573003783518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573003783542, "dur":83653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573003867301, "dur":3024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573003870327, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573003870457, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573003870479, "dur":3267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573003873875, "dur":29335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.Stores.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1657573003903212, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573003903350, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573003903372, "dur":2372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.Stores.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1657573003905831, "dur":17974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.SecurityStub.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1657573003923807, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573003923931, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573003923952, "dur":3319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.SecurityStub.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1657573003927379, "dur":2044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573003929425, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573003929555, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573003929587, "dur":2934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573003932647, "dur":218847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573004151496, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573004151627, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573004153905, "dur":14028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573004168014, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573004168102, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573004168176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573004168194, "dur":99180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573004267477, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573004267559, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573004267655, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573004267675, "dur":156064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573004423832, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573004423926, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573004424054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573004424085, "dur":139555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573004563752, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573004563878, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573004563986, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573004564010, "dur":262947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573004827054, "dur":52378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1657573004879433, "dur":190, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573004879645, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573004879666, "dur":4746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1657573004884494, "dur":363206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573005247702, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573005247825, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573005247912, "dur":3000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573005250991, "dur":31816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1657573005282809, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573005282938, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573005282956, "dur":2030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1657573005285076, "dur":9101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573005294179, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573005294288, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573005294306, "dur":6552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573005300985, "dur":31751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1657573005332737, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573005332828, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573005332846, "dur":17055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1657573005350035, "dur":174557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573005524594, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573005524888, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573005524923, "dur":2110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573005527105, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573005527176, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573005527240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573005527255, "dur":436828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573005964165, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573005964231, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573005964306, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573005964325, "dur":529088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573006493502, "dur":31600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1657573006525104, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573006525233, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573006525259, "dur":2405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1657573006527747, "dur":445611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573006973360, "dur":148223, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573007121604, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573007121625, "dur":53997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573007175712, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573007175794, "dur":774, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573007176589, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573007176607, "dur":291821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657573007468519, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1657573007468657, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573007468760, "dur":4983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1657573007473827, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1657573007473923, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573007473941, "dur":13085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1657573007487108, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1657573007487206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573007487220, "dur":6605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1657573007493919, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1657573007494185, "dur":499, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573007494705, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657573007494723, "dur":6370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1657573007501183, "dur":764316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573002778490, "dur":844, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573002779334, "dur":5038, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573002784378, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1657573002784472, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573002784515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573002787428, "dur":1269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1657573002788735, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1657573002788770, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573002788804, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573002789291, "dur":1664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1657573002791020, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1657573002791087, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573002791134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573002791217, "dur":1917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1657573002793189, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1657573002793237, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573002793293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573002794212, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1657573002795737, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1657573002795814, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573002795855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573002795866, "dur":72384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1657573002868314, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1657573002868376, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573002868428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573002868478, "dur":2416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1657573002870959, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573002871064, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573002871356, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573002871368, "dur":1997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573002873422, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573002873480, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573002873602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573002874960, "dur":474168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573003349214, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573003349283, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573003349346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573003349360, "dur":577789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573003927257, "dur":51662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.SecurityCore.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1657573003978921, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573003979057, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573003979077, "dur":3242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.SecurityCore.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1657573003982395, "dur":19571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.AppleStub.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1657573004001968, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573004002162, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573004002182, "dur":1818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.AppleStub.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1657573004004080, "dur":73878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573004077960, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573004078133, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573004078205, "dur":2256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573004080550, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573004080623, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573004080697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573004080716, "dur":239107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573004319898, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573004319969, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573004320075, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573004320091, "dur":127157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573004447321, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573004447393, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573004447464, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573004447482, "dur":133971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573004581590, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573004581696, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573004581890, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573004581914, "dur":132221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573004714219, "dur":33531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Advertisements.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1657573004747752, "dur":257, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573004748038, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573004748070, "dur":2716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Advertisements.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1657573004750885, "dur":401827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573005152713, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573005152837, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573005152855, "dur":2990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573005155916, "dur":31524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1657573005187442, "dur":574, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573005188032, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573005188049, "dur":4648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1657573005193321, "dur":101981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1657573005295304, "dur":966, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573005296288, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573005296312, "dur":5131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1657573005301519, "dur":21727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1657573005323248, "dur":557, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573005323823, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573005325879, "dur":3901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1657573005329873, "dur":81416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573005411291, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573005411517, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573005411550, "dur":2176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573005413793, "dur":2308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573005416102, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573005416203, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573005416220, "dur":2989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573005419272, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573005419333, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573005419396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573005419460, "dur":273515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573005693114, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573005693175, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573005693240, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573005693265, "dur":282905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573005976289, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573005976365, "dur":2583, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573005978966, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573005978982, "dur":467843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573006446920, "dur":25514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Purchasing.Common.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1657573006472436, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573006472576, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573006472599, "dur":2297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Purchasing.Common.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1657573006474982, "dur":258984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573006733967, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573006734076, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573006734094, "dur":1983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573006736161, "dur":51033, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1657573006787196, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573006787304, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573006787321, "dur":27893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1657573006815280, "dur":39921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1657573006855203, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573006855361, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573006855379, "dur":2710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1657573006858164, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1657573006858231, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573006858295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573006858311, "dur":12566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1657573006870942, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573006871000, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573006871064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573006871080, "dur":472197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573007343377, "dur":461448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573007804826, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573007804916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657573007804928, "dur":1559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657573007806547, "dur":458931, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573002778556, "dur":791, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573002779347, "dur":5038, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573002784388, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1657573002784531, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573002784614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573002867514, "dur":2626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1657573002870203, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573002870278, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573002870334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573002870763, "dur":2413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573002873232, "dur":541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1657573002873774, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573002873872, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573002875983, "dur":19578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1657573002895642, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573002895704, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573002895757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573002895769, "dur":94239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573002990072, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573002990126, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573002990172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573002990186, "dur":56247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573003046507, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573003046573, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573003046627, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573003046642, "dur":936059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573003982790, "dur":1618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573003984410, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573003984532, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573003984555, "dur":2707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573003987334, "dur":21685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1657573004009020, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573004009168, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573004009188, "dur":2278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1657573004011550, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573004011622, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573004011689, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573004011706, "dur":93944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573004105749, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573004105832, "dur":298, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573004106146, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573004106164, "dur":213518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573004319775, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573004319868, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573004319946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573004319964, "dur":122250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573004447771, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573004447850, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573004447916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573004447930, "dur":736616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573005184620, "dur":2831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573005187452, "dur":553, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573005188023, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573005188042, "dur":5186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573005193328, "dur":92408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573005285736, "dur":803, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573005286554, "dur":25, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573005286594, "dur":25898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573005312564, "dur":4977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573005317543, "dur":2371, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573005319933, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573005319954, "dur":5585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573005325654, "dur":2064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573005327719, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573005327906, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573005327926, "dur":1878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573005329910, "dur":15804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1657573005345715, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573005345841, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573005345860, "dur":4734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1657573005350683, "dur":15713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1657573005366397, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573005366471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573005366484, "dur":2096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1657573005368658, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Analytics.StandardEvents.dll.mdb" }}
+,{ "pid":12345, "tid":7, "ts":1657573005368727, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573005368797, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573005368813, "dur":3585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Analytics.StandardEvents.dll.mdb" }}
+,{ "pid":12345, "tid":7, "ts":1657573005372479, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Analytics.StandardEvents.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573005372542, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573005372610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573005372628, "dur":279211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Analytics.StandardEvents.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573005651913, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573005651978, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573005652048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573005652065, "dur":222471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573005874630, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573005874719, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573005874786, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573005874806, "dur":103683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573005978579, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573005978650, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573005978728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573005978746, "dur":421626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573006400457, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573006400549, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573006400643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573006400663, "dur":774362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657573007175115, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1657573007175198, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573007175303, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573007175476, "dur":48246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1657573007223823, "dur":159463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1657573007383287, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573007383475, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573007383497, "dur":74861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1657573007458449, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1657573007458544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573007458564, "dur":12501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1657573007471175, "dur":304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1657573007471480, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573007471573, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573007471591, "dur":6798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1657573007478479, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1657573007478580, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573007478599, "dur":7393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1657573007486088, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1657573007486206, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573007486225, "dur":5746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1657573007492079, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1657573007492179, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657573007492211, "dur":8202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1657573007500500, "dur":764989, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573002778601, "dur":754, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573002779355, "dur":5053, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573002784409, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1657573002784507, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573002784574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573002867262, "dur":4598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1657573002871920, "dur":994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar.exe" }}
+,{ "pid":12345, "tid":8, "ts":1657573002872914, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573002872998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573002873006, "dur":2796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar.exe" }}
+,{ "pid":12345, "tid":8, "ts":1657573002875880, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573002875994, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573002876058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573002876141, "dur":199573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573003075784, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573003075842, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573003075896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573003075910, "dur":54041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573003130014, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573003130078, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573003130136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573003130150, "dur":121000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573003251232, "dur":891985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573004143219, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573004143415, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573004143435, "dur":2855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573004146374, "dur":18719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Monetization.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1657573004165095, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573004165228, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573004165248, "dur":3591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.Monetization.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1657573004168924, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573004169003, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573004169085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573004169101, "dur":93535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573004262723, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573004262801, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573004262922, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573004262942, "dur":90899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573004353919, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573004353989, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573004354062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573004354085, "dur":206588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573004560849, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573004560995, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573004561122, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573004561146, "dur":125793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573004687049, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573004687140, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573004687285, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573004687308, "dur":156703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573004844108, "dur":104843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1657573004948953, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573004949093, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573004949112, "dur":8663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1657573004957853, "dur":16616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1657573004974470, "dur":221, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573004974709, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573004974729, "dur":2218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1657573004977025, "dur":289487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573005266514, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573005266630, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573005266648, "dur":2836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573005269567, "dur":15235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1657573005284803, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573005284917, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573005284936, "dur":3129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1657573005288137, "dur":41517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1657573005329656, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573005329767, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573005329785, "dur":2453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1657573005332322, "dur":1405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573005333728, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573005333855, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573005333870, "dur":1614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573005335557, "dur":14579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1657573005350137, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573005350234, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573005350251, "dur":3395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1657573005353721, "dur":1477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573005355199, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573005355309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573005355326, "dur":2709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573005358210, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Analytics.Tracker.dll.mdb" }}
+,{ "pid":12345, "tid":8, "ts":1657573005358296, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573005358369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573005358389, "dur":6359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Analytics.Tracker.dll.mdb" }}
+,{ "pid":12345, "tid":8, "ts":1657573005366178, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Analytics.Tracker.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573005366259, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573005366339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573005366353, "dur":113886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/Unity.Analytics.Tracker.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573005480309, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573005480379, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573005480448, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573005480465, "dur":432574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573005913110, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573005913176, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573005913239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573005913256, "dur":622792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573006536140, "dur":60251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1657573006596393, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573006596563, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573006596590, "dur":4069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1657573006600745, "dur":1030205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573007630951, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573007631152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657573007631173, "dur":3522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ismai/Desktop/UnityGames/RacingCar_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657573007634791, "dur":630685, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657573008273730, "dur":4938, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1657573008330847, "dur": 1853, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657573008330597, "dur": 2147, "ph": "X", "name": "Write chrome-trace events", "args": {} },
